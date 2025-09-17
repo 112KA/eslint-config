@@ -15,6 +15,9 @@
   "author": "Masayuki Iizuka <mas.iizuka@gmail.com>",
   "license": "MIT",
   "packageManager": "pnpm@10.16.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@eslint/js": "^9.35.0",
     "eslint": "^9.35.0",
