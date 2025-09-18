@@ -20,13 +20,6 @@ importers:
       typescript-eslint:
         specifier: ^8.44.0
         version: 8.44.0(eslint@9.35.0)(typescript@5.9.2)
-    devDependencies:
-      '@tsconfig/node-ts':
-        specifier: ^23.6.1
-        version: 23.6.1
-      '@tsconfig/node22':
-        specifier: ^22.0.2
-        version: 22.0.2
 
 packages:
 
@@ -95,12 +88,6 @@ packages:
   '@nodelib/fs.walk@1.2.8':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
-
-  '@tsconfig/node-ts@23.6.1':
-    resolution: {integrity: sha512-1E5cUp+S65pLKKI9VrGMQPWDHxOEq3dAGM2onG3fLeSRwWbylYFwhIjnzJikjSN7w2nCgwxmv8ifvUKDFkK38Q==}
-
-  '@tsconfig/node22@22.0.2':
-    resolution: {integrity: sha512-Kmwj4u8sDRDrMYRoN9FDEcXD8UpBSaPQQ24Gz+Gamqfm7xxn+GBR7ge/Z7pK8OXNGyUzbSwJj+TH6B+DS/epyA==}
 
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
@@ -594,10 +581,6 @@ snapshots:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
-
-  '@tsconfig/node-ts@23.6.1': {}
-
-  '@tsconfig/node22@22.0.2': {}
 
   '@types/estree@1.0.8': {}
 
